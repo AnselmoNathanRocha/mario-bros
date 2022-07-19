@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, serif;
+            font-weight: bolder;
+            font-size: 2em;
+            margin-top: 10px;
+        }
+
+        .cima {
+            margin-bottom: 25px;
+        }
+
+        #cima {
+            border: 1px solid black;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: black;
+            margin: 59px;
+        }
+
+        #dir {
+            border: 1px solid black;
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #baixo {
+            border: 1px solid black;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #esq {
+            border: 1px solid black;
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .botoes {
+            border-radius: 8px;
+            background-color: rgb(48, 28, 165);
+        }
+
+        a:hover {
+            background-color: rgba(49, 28, 165, 0.644);
+        }
+
+        .botoes:active {
+            background-color: darkblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cima">
+        <a id="cima" class="botoes" href="">&uarr;</a>
+    </div>
+
+    <a id="esq" class="botoes" href="">&larr;</a>
+    <a id="baixo" class="botoes" href="">&darr;</a>
+    <a id="dir" class="botoes" href="">&rarr;</a>
+</body>
+</html>
